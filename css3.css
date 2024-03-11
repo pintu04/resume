@@ -1,0 +1,733 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.name{
+    /* margin-top: 100px; */
+}
+.mna h3{
+    /* font-size: 1rem; */
+    /* letter-spacing: 2px; */
+    /* gap: 2px; */
+}
+body {
+    background-color: rgb(145, 151, 151);
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    max-width: 1000px;
+    min-height: 1000px;
+    width: 900px;
+    height: 1150px;
+    margin: 20px auto;
+    /* box-shadow: 0px 6px 27px rgba(0, 0, 0, 1);  */
+   
+}
+
+.firstc img {
+    width: 200px;
+    /* border: 1px solid white; */
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    margin: 40px 50px;
+    /* display: none; */
+    
+    /* box-shadow: 0px 0px 20px white; */
+}
+
+.firstc {
+    position: relative;
+    color: rgba(255, 255, 255, 0.932);
+    width: 314px;
+    background-color: rgb(9, 52, 77);
+    height: 1200px;
+
+}
+
+.name .mna h3 span {
+    /* font-family: 'Satisfy', cursive;  */
+    /* border: 1px solid white; */
+    text-decoration: solid;
+    font-size: 19px;
+    /* color:rgb(9, 165, 238); */
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .mna {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: -31px 46px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgb(227, 228, 197);
+} 
+/* .mna{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin: -30px 47px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgb(227, 228, 197);
+} */
+
+.wd {
+    position: relative;
+    top: -40px;
+    margin: 37px 71px;
+    color: rgb(199, 192, 192);
+    letter-spacing: 2px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: system-ui;
+}
+
+.contact {
+    /* margin-top: 15px; */
+    margin: -28px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(235, 230, 230);
+
+}
+
+.secc {
+    height: 1200px;
+    background-color: rgb(221, 221, 224);
+    width: 800px;
+}
+
+.call h4 {
+    margin-left: 10px;
+
+}
+
+.email .fa-solid {
+    font-size: 18px;
+    color: darkturquoise;
+}
+
+.adress .fa-solid {
+    font-size: 18px;
+    color: darkturquoise;
+
+}
+
+.call .fa-solid {
+    font-size: 18px;
+    color: darkturquoise;
+}
+
+.call {
+    display: flex;
+    margin-top: 15px;
+    color: rgb(221, 212, 212);
+}
+
+.email h4 span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email h4 {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email {
+    margin-top: 15px;
+    display: flex;
+    color: rgb(221, 212, 212);
+
+}
+
+.adress h4 {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 13px;
+
+}
+
+.adress {
+    color: rgb(221, 212, 212);
+    display: flex;
+    margin-top: 15px;
+}
+
+.linkd .fa-brands {
+    font-size: 18px;
+    color: darkturquoise;
+
+}
+
+.linkd h4 {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 13px;
+
+}
+
+.linkd {
+    margin-top: 15px;
+    display: flex;
+    color: rgb(221, 212, 212);
+
+}
+
+.git h4 {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 13px;
+
+}
+
+.git .fa-brands {
+    font-size: 18px;
+    color: darkturquoise;
+
+
+}
+
+.git {
+    margin-top: 15px;
+    display: flex;
+    color: rgb(221, 212, 212);
+    
+
+}
+
+.pde .detail h4 {
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: darkturquoise;
+}
+
+.pde .detail {
+    display: flex;
+
+
+
+}
+
+.pde .detail p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(221, 212, 212);
+}
+
+.pde .ma p {
+    margin-left: 63px;
+    letter-spacing: 1px;
+}
+
+.pde .re p {
+    margin-left: 123px;
+    letter-spacing: 1px;
+
+}
+
+.pde .na p {
+    margin-left: 96px;
+    letter-spacing: 1px;
+
+}
+
+.pde .do p {
+    margin-left: 157px;
+    letter-spacing: 1px;
+
+}
+
+.pde .ge p {
+    margin-left: 132px;
+    letter-spacing: 1px;
+
+}
+
+.pde h3 {
+    margin: -35px 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(233, 229, 229);
+    margin-bottom: 16px;
+}
+
+.pde {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.lkn h3 {
+    margin: 28px 20px
+}
+
+
+.lkn .eoh {
+    /* display: flex; */
+    margin: 14px 21px;
+    color: darkturquoise;
+
+
+
+}
+
+.eoh .bllll {
+    display: block;
+    width: 250px;
+    height: 7px;
+    /* background-color: rgb(238, 3, 3); */
+    background-color: rgb(247, 6, 6);
+    /* color: rgb(0, 255, 13); */
+    border-radius: 40px;
+    /* opacity: 45%; */
+    position: relative;
+    top: -7px;
+
+    
+}
+.eoh .blll {
+    display: block;
+    width: 250px;
+    height: 7px;
+    /* background-color: rgb(238, 3, 3); */
+    background-color: rgb(247, 6, 6);
+    /* color: rgb(0, 255, 13); */
+    border-radius: 40px;
+    /* opacity: 45%; */
+    position: relative;
+    top: -7px;
+
+    
+}
+
+.eoh .bll {
+
+    display: block;
+    width: 220px;
+    background-color: rgb(247, 6, 6);
+    height: 7px;
+    /* background-color: rgb(238, 3, 3); */
+    border-radius: 40px;
+    /* opacity: 45%; */
+    position: relative;
+    top: -7px;
+    /* opacity: 45%; */
+}
+
+.eoh .bl {
+    display: block;
+    width: 276px;
+    height: 7px;
+    background-color: #000000;
+    border-radius: 40px;
+    opacity: 45%;
+}
+
+.lkn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+}
+
+.eoh h4 {
+    margin-top: -14px;
+    margin-bottom: 10px;
+
+
+}
+.prf h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 16px -7px;
+}
+.prf ul li{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 9px 11px;
+    letter-spacing: 1px;
+    margin-right: 27px;
+}
+
+.prf{
+    /* margin: 10px 10px; */
+    margin-left: 25px;
+    margin-right: 3px;
+
+}
+.educ h3{
+    margin: 22px 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 120, 141);
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+.tskl h3{
+    margin: -64px 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 120, 141);
+    font-size: 18px;
+
+}
+.educ .coll .collh{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    color: #00060a;
+}
+.educ .coll span{
+    color: #0174BE;
+    font-weight: 500;
+}
+
+.educ .coll p{
+    letter-spacing: 0.50px;
+}
+.educ .coll {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+     .trn11{
+        display: block;
+        position: relative;
+        width: 320px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 57px;
+        left: 161px;
+    }
+     .trn22{
+        display: block;
+        position: relative;
+        width: 315px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 141px;
+        left: 161px;
+    }
+     .trn33{
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 165px;
+        left: 161px;
+    }
+     .trn44{
+        display: block;
+        position: relative;
+        width: 285px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 149px;
+        left: 161px;
+    }
+     .trn55{
+        display: block;
+        position: relative;
+        width: 295px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 203px;
+        left: 161px;
+    }
+     .trn66{
+        display: block;
+        position: relative;
+        width: 250px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 247px;
+        left: 161px;
+    }
+     .trn77{
+        display: block;
+        position: relative;
+        width: 245px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 291px;
+        left: 161px;
+        /* display: none;  */
+    }
+     .trn88{
+        display: block;
+        position: relative;
+        width: 282px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 275px;
+        left: 161px;
+        /* display: none;  */
+    }
+     .trn99{
+        display: block;
+        position: relative;
+        width: 282px;
+        height: 10px;
+        background-color: rgb(247, 6, 6);
+        /* box-shadow: 0px 0px 0px 5px black; */
+        border-radius: 20px;
+        top: 299px;
+        left: 161px;
+        /* display: none;  */
+    }
+    .tskl{
+        margin-top: 83px;
+    }
+
+.project .proj{
+    margin-left: 21px;
+
+}  
+.project h3{
+    margin: 24px 21px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 120, 141);
+    letter-spacing: 1px;
+}
+
+
+.proj ul li a{
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.proj ul li {
+    margin-bottom: 10px;
+    margin-left: 19px;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    /* list-style: none; */
+}
+
+.environment {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2px;
+    color: #00060a;
+    letter-spacing: 0px;
+}
+
+.env {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    
+    color: #00060a;
+    letter-spacing: 0px;
+}
+
+.proj p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.50px;
+    margin-right: 28px;
+    margin-bottom: 19px;
+    margin-left: 19px;
+    margin-top: -9px;
+}
+ .description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2px;
+    color: #00060a;
+    letter-spacing: 0px;
+ }
+
+.cert h3{
+    margin: 19px 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.n{
+    margin-left: 42px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.un{
+    margin-left: 42px;
+    color: rgb(4 60 163);
+    letter-spacing: 1px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+.intr h3{
+    font-size: 15px;
+    
+
+}
+    .i h5{
+        margin-left: 15px;
+        color: rgb(221, 212, 212);
+        font-size: 12px;
+    }
+.i .fa-solid{
+    font-size: 17px;
+    color: darkturquoise;
+    margin-left: -2px;
+
+}
+.i{
+    display: flex;
+    margin-top: 10px;
+    
+}
+    
+
+
+
+    
+    
+
+.intr{
+    margin: 13px 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+.tskl .square-skill{
+   margin: 89px 19px;
+   display: flex;
+   
+}
+.project{
+    margin-top: -60px;
+}
+
+
+.allskill22 .a7 .a7hea{
+    /* flex-wrap: wrap; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    
+    color: #00060a;
+    letter-spacing: 0px;
+}
+.allskill22 .a7 .a7skill{
+    letter-spacing: 0;
+    letter-spacing: 0.50px;
+    /* color: #000000; */
+}
+.allskill22 .a7 {
+    display: flex;
+    margin-top: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.allskill22{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    /* font-size: 20px; */
+    /* font-weight: 400; */
+    font-weight: normal;
+    
+    margin: 80px 23px;
+}
+
+
+.coll ul li span {
+    color: rgb(0, 125, 167);
+}
+
+
+
+.cet1 {
+    margin: 3.25rem 1.3rem;
+    
+}
+.cet1 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(233, 229, 229);
+    margin-bottom: 15px;
+    
+}
+
+.mc {
+    color: #05bfc5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.25rem 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.cet1 .mc  .uii{
+    /* font-family:cursive; */
+    font-style: italic;
+    color: #94989b;
+}
+.cet1 .mc .ui {
+    font-size: 15px;
+}
+
+
+.tic {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    
+    color: #00060a;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+}
